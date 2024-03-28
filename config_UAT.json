@@ -1,0 +1,36 @@
+{
+    "nt": [
+        {
+            "FullPath": "\\\\ServerPath1\\Archive",
+            "DeleteAfterDays": 30,
+            "Active": true
+        },
+        {
+            "FullPath": "\\\\ServerPath2\\Archive",
+            "DeleteAfterDays": 30,
+            "Active": true
+        },
+        {
+            "FullPath": "\\\\ServerPath3\\Archive",
+            "DeleteAfterDays": 30,
+            "Active": true
+        },
+        {
+            "FullPath": "\\\\ServerPath4\\Archive",
+            "DeleteAfterDays": 15,
+            "Active": true
+        }
+    ],
+    "posix": [
+        {
+            "FullPath": "/serverPath1/working",
+            "DeleteAfterDays": 2,
+            "Active": true
+        },
+		{
+		  "FullPath": "/serverPath2/log",
+		  "DeleteAfterDays": 2,
+		  "Active": true
+		}
+    ]
+}
